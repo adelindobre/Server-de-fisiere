@@ -1,0 +1,14 @@
+Detalii de implementare!
+
+	Tema a fost efectuata pe un sistem Ubuntu 14.04 pe 64 de biti!
+	In main, se primeste primul pachet de la client, se testeaza daca pachetul este corect sau nu (depinzand ce mod este ales) si
+se executa prima instructiune. Apelul primei instructiuni va intoarce urmatoarea instructiune de la client pana cand se intalneste comanda exit.
+	Intr-o bucla while din main, are loc apelul comenzilor. Fiecare comanda a fost implementata intr-o functie diferita. Pentru verificarea bitului
+de paritate, am o functie denumita checkParity care verifica acest lucru.
+	Am implementat protocolul Stop and Wait simplu si cel pentru modul parity.
+	La modul Hamming, am scris functiile de codare si decodare a pachetului, fara a le implementa insa in comenzile primite de server. 
+	
+	De mentionat ca, testele pentru modul simplu si parity imi trec pe masina locala, dar pe vmchecker imi pica testele pentru parity!
+
+
+Dobre Adelin Grigore 323CC
